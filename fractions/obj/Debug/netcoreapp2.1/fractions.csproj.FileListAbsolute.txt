@@ -1,0 +1,14 @@
+D:\лабы\ISM\oop\fractions\obj\Debug\netcoreapp2.1\fractions.csprojAssemblyReference.cache
+D:\лабы\ISM\oop\fractions\obj\Debug\netcoreapp2.1\fractions.csproj.CoreCompileInputs.cache
+D:\лабы\ISM\oop\fractions\obj\Debug\netcoreapp2.1\fractions.AssemblyInfoInputs.cache
+D:\лабы\ISM\oop\fractions\obj\Debug\netcoreapp2.1\fractions.AssemblyInfo.cs
+D:\лабы\ISM\oop\fractions\bin\Debug\netcoreapp2.1\fractions.deps.json
+D:\лабы\ISM\oop\fractions\bin\Debug\netcoreapp2.1\fractions.runtimeconfig.json
+D:\лабы\ISM\oop\fractions\bin\Debug\netcoreapp2.1\fractions.runtimeconfig.dev.json
+D:\лабы\ISM\oop\fractions\bin\Debug\netcoreapp2.1\fractions.dll
+D:\лабы\ISM\oop\fractions\bin\Debug\netcoreapp2.1\fractions.pdb
+D:\лабы\ISM\oop\fractions\bin\Debug\netcoreapp2.1\ClassLibraryFraction.dll
+D:\лабы\ISM\oop\fractions\bin\Debug\netcoreapp2.1\ClassLibraryFraction.pdb
+D:\лабы\ISM\oop\fractions\obj\Debug\netcoreapp2.1\fractions.csproj.CopyComplete
+D:\лабы\ISM\oop\fractions\obj\Debug\netcoreapp2.1\fractions.dll
+D:\лабы\ISM\oop\fractions\obj\Debug\netcoreapp2.1\fractions.pdb

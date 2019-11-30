@@ -1,0 +1,9 @@
+D:\лабы\ISM\oop\ClassLibraryFraction\obj\Debug\netcoreapp2.1\ClassLibraryFraction.csprojAssemblyReference.cache
+D:\лабы\ISM\oop\ClassLibraryFraction\obj\Debug\netcoreapp2.1\ClassLibraryFraction.csproj.CoreCompileInputs.cache
+D:\лабы\ISM\oop\ClassLibraryFraction\obj\Debug\netcoreapp2.1\ClassLibraryFraction.AssemblyInfoInputs.cache
+D:\лабы\ISM\oop\ClassLibraryFraction\obj\Debug\netcoreapp2.1\ClassLibraryFraction.AssemblyInfo.cs
+D:\лабы\ISM\oop\ClassLibraryFraction\bin\Debug\netcoreapp2.1\ClassLibraryFraction.deps.json
+D:\лабы\ISM\oop\ClassLibraryFraction\bin\Debug\netcoreapp2.1\ClassLibraryFraction.dll
+D:\лабы\ISM\oop\ClassLibraryFraction\bin\Debug\netcoreapp2.1\ClassLibraryFraction.pdb
+D:\лабы\ISM\oop\ClassLibraryFraction\obj\Debug\netcoreapp2.1\ClassLibraryFraction.dll
+D:\лабы\ISM\oop\ClassLibraryFraction\obj\Debug\netcoreapp2.1\ClassLibraryFraction.pdb
