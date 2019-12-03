@@ -29,7 +29,10 @@ namespace ClassLibraryFraction
         {
             long i = 0;
             long lcm = 0;
-            
+            if(Numerator < 0 && Denominator > 0)
+            {
+                Numerator *= -1;
+            }
             if (Numerator > Denominator)
             {
                 i = Denominator;
@@ -156,14 +159,6 @@ namespace ClassLibraryFraction
             return res;
         }
         // Перегружаем логический оператор ==
-        public bool Equals(Fraction a)
-        {
-            if (a == null)
-                return false;
-
-            return a.Numerator == this.Numerator && a.Denominator == this.Denominator;
-        }
-        /*
         public static bool operator ==(Fraction a, Fraction b)
         {
             if (a.Numerator == b.Numerator && a.Denominator == b.Denominator)
@@ -175,44 +170,112 @@ namespace ClassLibraryFraction
         public static bool operator !=(Fraction a, Fraction b)
         {
             if (a.Denominator != b.Denominator)
-                return false;
             return true;
-        }*/
+                return false;
+        }
 
-        // Перегружаем логический оператор >=
+        // Перегружаем логический оператор >
         public static bool operator >(Fraction a, Fraction b)
         {
+            long temp = 0;
+            if (a.Denominator != b.Denominator)
+             {
+                 a.Numerator = a.Numerator * b.Denominator;
+                 b.Numerator = b.Numerator * a.Denominator;
+                 temp = a.Denominator;
+                 a.Denominator = a.Denominator * b.Denominator;                
+                 b.Denominator = temp * b.Denominator;
+            }
+            if (a.Numerator > b.Numerator)
+            {
+                a.Simplify();
+                b.Simplify();
+                return true;
+            }
+            else
+            {
+                a.Simplify();
+                b.Simplify();
+                return false;
+            }
+        }
+
+        // Oбязательно перегрузить логический оператор <
+        public static bool operator <(Fraction a, Fraction b)
+        {
+            long temp = 0;
+            if (a.Denominator != b.Denominator)
+             {
+                 a.Numerator = a.Numerator * b.Denominator;
+                 b.Numerator = b.Numerator * a.Denominator;
+                 temp = a.Denominator;
+                 a.Denominator = a.Denominator * b.Denominator;                
+                 b.Denominator = temp * b.Denominator;
+            }
+             if (a.Numerator < b.Numerator)
+             {
+                 a.Simplify();
+                 b.Simplify();
+                 return true;
+             }
+             else
+             {
+                 a.Simplify();
+                 b.Simplify();
+                 return false;
+             }
+        }
+        // Перегружаем логический оператор >
+        public static bool operator >=(Fraction a, Fraction b)
+        {
+            long temp = 0;
             if (a.Denominator != b.Denominator)
             {
                 a.Numerator = a.Numerator * b.Denominator;
-                a.Denominator = a.Denominator * b.Denominator;
                 b.Numerator = b.Numerator * a.Denominator;
-                b.Denominator = a.Denominator * b.Denominator;
+                temp = a.Denominator;
+                a.Denominator = a.Denominator * b.Denominator;
+                b.Denominator = temp * b.Denominator;
             }
-            a.Simplify();
-            b.Simplify();
-            if (a.Numerator > b.Numerator)
+            if (a.Numerator >= b.Numerator)
+            {
+                a.Simplify();
+                b.Simplify();
                 return true;
-            return false;
+            }
+            else
+            {
+                a.Simplify();
+                b.Simplify();
+                return false;
+            }
         }
 
         // Oбязательно перегрузить логический оператор <=
-        public static bool operator <(Fraction a, Fraction b)
+        public static bool operator <=(Fraction a, Fraction b)
         {
+            long temp = 0;
             if (a.Denominator != b.Denominator)
             {
                 a.Numerator = a.Numerator * b.Denominator;
-                a.Denominator = a.Denominator * b.Denominator;
                 b.Numerator = b.Numerator * a.Denominator;
-                b.Denominator = a.Denominator * b.Denominator;
+                temp = a.Denominator;
+                a.Denominator = a.Denominator * b.Denominator;
+                b.Denominator = temp * b.Denominator;
             }
-            a.Simplify();
-            b.Simplify();
-            if (a.Numerator < b.Numerator)
+            if (a.Numerator <= b.Numerator)
+            {
+                a.Simplify();
+                b.Simplify();
+                return true;
+            }
+            else
+            {
+                a.Simplify();
+                b.Simplify();
                 return false;
-            return true;
+            }
         }
-
         // Переопределяем метод ToString()
         public override string ToString()
         {

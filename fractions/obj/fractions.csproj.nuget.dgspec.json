@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\лабы\\ISM\\oop\\fractions\\fractions.csproj": {}
+    "d:\\лабы\\ISM\\oop\\fractions\\fractions.csproj": {}
   },
   "projects": {
-    "D:\\лабы\\ISM\\oop\\ClassLibraryFraction\\ClassLibraryFraction.csproj": {
+    "d:\\лабы\\ISM\\oop\\ClassLibraryFraction\\ClassLibraryFraction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\лабы\\ISM\\oop\\ClassLibraryFraction\\ClassLibraryFraction.csproj",
+        "projectUniqueName": "d:\\лабы\\ISM\\oop\\ClassLibraryFraction\\ClassLibraryFraction.csproj",
         "projectName": "ClassLibraryFraction",
-        "projectPath": "D:\\лабы\\ISM\\oop\\ClassLibraryFraction\\ClassLibraryFraction.csproj",
+        "projectPath": "d:\\лабы\\ISM\\oop\\ClassLibraryFraction\\ClassLibraryFraction.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\лабы\\ISM\\oop\\ClassLibraryFraction\\obj\\",
+        "outputPath": "d:\\лабы\\ISM\\oop\\ClassLibraryFraction\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "D:\\лабы\\ISM\\oop\\fractions\\fractions.csproj": {
+    "d:\\лабы\\ISM\\oop\\fractions\\fractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\лабы\\ISM\\oop\\fractions\\fractions.csproj",
+        "projectUniqueName": "d:\\лабы\\ISM\\oop\\fractions\\fractions.csproj",
         "projectName": "fractions",
-        "projectPath": "D:\\лабы\\ISM\\oop\\fractions\\fractions.csproj",
+        "projectPath": "d:\\лабы\\ISM\\oop\\fractions\\fractions.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\лабы\\ISM\\oop\\fractions\\obj\\",
+        "outputPath": "d:\\лабы\\ISM\\oop\\fractions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -86,8 +86,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "D:\\лабы\\ISM\\oop\\ClassLibraryFraction\\ClassLibraryFraction.csproj": {
-                "projectPath": "D:\\лабы\\ISM\\oop\\ClassLibraryFraction\\ClassLibraryFraction.csproj"
+              "d:\\лабы\\ISM\\oop\\ClassLibraryFraction\\ClassLibraryFraction.csproj": {
+                "projectPath": "d:\\лабы\\ISM\\oop\\ClassLibraryFraction\\ClassLibraryFraction.csproj"
               }
             }
           }
